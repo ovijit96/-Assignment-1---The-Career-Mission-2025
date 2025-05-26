@@ -12,6 +12,8 @@ body{
     /* border: 10px solid; */
 }
 
+
+
 /* header section */
 span{
     color: #FFA500;
@@ -21,20 +23,23 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 20px;
-    padding: 10px;
-    background-color: #;
+    /* margin: 10px 20px; */
+    padding: 16px 50px;
     background-color: white;
 
 }
 
+
+
+
 .btn{
     background: linear-gradient(90deg, #FFA500, #FFD447);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 15px 10px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Banner section */
@@ -139,7 +144,7 @@ p{
 .target-content{
     display: flex;
     justify-content: space-between;
-    gap: ;
+    /* gap: ; */
     background-color: white;
     padding: 32px 32px;
     border-radius: 30px;
@@ -149,7 +154,13 @@ p{
 
 .footer-container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 50px;
     background-color: white;
+}
+
+.footer-content{
+gap: 51px
+;
 }
