@@ -32,7 +32,7 @@ span{
     background: linear-gradient(90deg, #FFA500, #FFD447);
     border: none;
     border-radius: 20px;
-    padding: 25px 17px;
+    padding: 15px 10px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -96,7 +96,60 @@ p{
     font-size: 32px;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
-
+.video-boundary{
+    padding: 32px 32px;
+    /* border: #14149c; */
+}
 .video-set{
-    justify-content: center;
+    text-align: center;
+    /* border-radius: 30px; */
+}
+.video-set iframe{
+    border-radius: 16px;
+}
+
+/* Target section */
+
+.target-container{
+    text-align: center;
+    /* padding: 24px 24px; */
+}
+
+.target-container h2{
+    margin: 24px;
+    font-size: 32px;
+}
+
+.target{
+    padding: 32px 32px;
+    /* background-color: white; */
+}
+    
+    
+
+
+
+.target-card {
+  background: linear-gradient(90deg, #E6EDF9, #9DE5FF);
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  width: 350px;
+}
+.target-content{
+    display: flex;
+    justify-content: space-between;
+    gap: ;
+    background-color: white;
+    padding: 32px 32px;
+    border-radius: 30px;
+}
+
+/* Footer section */
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: white;
 }
